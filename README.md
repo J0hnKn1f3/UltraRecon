@@ -1,6 +1,6 @@
 # UltraRecon
 
-**UltraRecon** es una herramienta de escaneo de puertos y detección de vulnerabilidades con integración automática a Metasploit. Diseñada por **Johnknife**, ofrece una solución rápida, visual y potente para tareas de reconocimiento en pruebas de penetración.
+**UltraRecon** es una herramienta de escaneo de puertos y detección de vulnerabilidades con integración automática a Metasploit. Diseñada para ofrecer una solución rápida, visual y potente para tareas de reconocimiento en pruebas de penetración.
 
 ---
 
@@ -8,7 +8,7 @@
 
 - Escaneo de puertos TCP (1-1024)
 - Detección de vulnerabilidades comunes (basadas en CVE)
-- Clasificación por criticidad (color rojo/amarillo)
+- Clasificación por criticidad (color rojo/amarillo)Update 
 - Sugerencias automáticas de payloads
 - Generación de scripts `.rc` para Metasploit
 - Ejecución directa de Metasploit desde el script
@@ -28,7 +28,7 @@
 ## 🧠 Uso
 
 ```bash
-Sudo su
+sudo su
 apt update && apt upgrade
 apt install git
 apt install python3
