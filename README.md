@@ -28,5 +28,10 @@
 ## 🧠 Uso
 
 ```bash
-git clone https://github.com/
+Sudo su
+apt update && apt upgrade
+apt install git
+apt install python3
+git clone https://github.com/J0hnKn1f3/UltraRecon.git
+cd UltraRecon
 python3 ultrarecon.py
