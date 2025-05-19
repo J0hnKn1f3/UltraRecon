@@ -6,7 +6,7 @@
 
 ## 🚀 Características
 
-- Escaneo de puertos TCP (1-1024)
+- Escaneo de puertos TCP (1-4024)
 - Detección de vulnerabilidades comunes (basadas en CVE)
 - Clasificación por criticidad (color rojo/amarillo)Update 
 - Sugerencias automáticas de payloads
@@ -49,3 +49,10 @@ python3 ultrarecon.py
 ...
 [+] Script Metasploit generado: autopwn.rc
 [+] Lanzando Metasploit automáticamente...
+```
+
+---
+
+Necesitas cambiar el escaneo de puertos? en el archivo UltraRecon.py busca la línea 122
+``` Bash
+puertos = list(range(1, 4024))  # puedes cambiarlo hasta 65535
