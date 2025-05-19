@@ -35,3 +35,17 @@ apt install python3
 git clone https://github.com/J0hnKn1f3/UltraRecon.git
 cd UltraRecon
 python3 ultrarecon.py
+```
+
+---
+
+## 📂 Ejemplo de salida
+```bash
+[+] Escaneando 192.168.1.10...
+
+[*] Puerto 22 abierto
+[!] CVE-2020-14145 (Debilidad en autenticación OpenSSH) en el puerto 22
+    Payload sugerido: linux/x86/shell_reverse_tcp
+...
+[+] Script Metasploit generado: autopwn.rc
+[+] Lanzando Metasploit automáticamente...
