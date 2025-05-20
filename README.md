@@ -56,3 +56,7 @@ python3 ultrarecon.py
 Necesitas cambiar el escaneo de puertos? en el archivo UltraRecon.py busca la línea 122
 ``` Bash
 puertos = list(range(1, 4024))  # puedes cambiarlo hasta 65535
+```
+
+Por si me querés apoyar
+**BTC**: 1EhrtTerdT3FckqUoPFEpbE2tiNrmjQNND
